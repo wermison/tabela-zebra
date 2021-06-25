@@ -1,0 +1,41 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.tabela {
+    background-color: #fff;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tabela table {
+    border: 1px solid #555;
+}
+
+.tabela thead {
+    background-color: #727272;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.tabela td {
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #fff;
+}
+
+.tabela tbody tr:nth-child(odd){
+    background-color: #80ff00c2;
+}
+
+.tabela tbody tr:nth-child(even){
+    background-color: #ddd;
+}
